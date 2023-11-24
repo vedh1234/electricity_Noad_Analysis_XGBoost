@@ -4,7 +4,7 @@ library(ggplot2)
 library(caret)
 library(ggthemes)
 
-df = read.csv("/home/vedh/COLLEGE/4rth sem/DS/DATA_SCIENCE_lab/datasets/PJME_hourly/PJME_hourly.csv", header = TRUE, row.names = NULL)
+df = read.csv("PJME_hourly.csv", header = TRUE, row.names = NULL)
 head(df)
 tail(df)
 View(df)
